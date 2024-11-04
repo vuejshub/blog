@@ -58,8 +58,8 @@ export default hopeTheme({
     blog: true,
     searchPro: true,
     feed: {
-      atom: true,
-      json: true,
+      // atom: true,
+      // json: true,
       rss: true,
     },
     // 启用之前需安装 @waline/client

@@ -24,7 +24,7 @@ navigator.clipboard.writeText(textToCopy)
 
 ```
 
-## 方法 2：使用 document.execCommand（已废弃）
+## 方法 2：使用 document.execCommand（已废弃）低版本chrome适用
 
 ```javascript
 function copyText(text) {

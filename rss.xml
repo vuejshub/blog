@@ -6,19 +6,19 @@
     <link>https://mister-hope.github.io/</link>
     <description>前端进阶</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 04 Nov 2024 12:27:26 GMT</pubDate>
-    <lastBuildDate>Mon, 04 Nov 2024 12:27:26 GMT</lastBuildDate>
+    <pubDate>Mon, 04 Nov 2024 15:37:44 GMT</pubDate>
+    <lastBuildDate>Mon, 04 Nov 2024 15:37:44 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>JavaScript</category>
     <category>TypeScript</category>
     <category>Vue</category>
     <item>
-      <title>JavaScript 实现复制</title>
+      <title>JavaScript实现复制</title>
       <link>https://mister-hope.github.io/javaScript/copy.html</link>
       <guid>https://mister-hope.github.io/javaScript/copy.html</guid>
-      <source url="https://mister-hope.github.io/rss.xml">JavaScript 实现复制</source>
-      <description>JavaScript 实现复制 在 JavaScript 中，有几种方式可以实现复制文本到剪贴板。以下是几种常用的方法： 方法 1：使用 navigator.clipboard.writeText（推荐） 方法 2：使用 document.execCommand（已废弃）</description>
+      <source url="https://mister-hope.github.io/rss.xml">JavaScript实现复制</source>
+      <description>JavaScript实现复制 在 JavaScript 中，有几种方式可以实现复制文本到剪贴板。以下是几种常用的方法： 方法 1：使用 navigator.clipboard.writeText（推荐） 方法 2：使用 document.execCommand（已废弃）</description>
       <category>JavaScript</category>
       <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[

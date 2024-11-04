@@ -3,7 +3,7 @@
   <id>https://mister-hope.github.io/</id>
   <title>前端进阶</title>
   <subtitle>前端进阶</subtitle>
-  <updated>2024-11-04T12:27:26.750Z</updated>
+  <updated>2024-11-04T15:37:44.983Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://mister-hope.github.io/atom.xml"/>
   <link rel="alternate" href="https://mister-hope.github.io/"/>
@@ -11,10 +11,10 @@
   <category term="TypeScript"/>
   <category term="Vue"/>
   <entry>
-    <title type="text">JavaScript 实现复制</title>
+    <title type="text">JavaScript实现复制</title>
     <id>https://mister-hope.github.io/javaScript/copy.html</id>
     <link href="https://mister-hope.github.io/javaScript/copy.html"/>
-    <updated>2024-11-04T11:39:43.000Z</updated>
+    <updated>2024-11-04T15:36:29.000Z</updated>
     <summary type="html"><![CDATA[
 <p>在 JavaScript 中，有几种方式可以实现复制文本到剪贴板。以下是几种常用的方法：</p>
 <h2>方法 1：使用 navigator.clipboard.writeText（推荐）</h2>

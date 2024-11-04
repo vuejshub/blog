@@ -8,7 +8,7 @@ tag:
 star: true
 sticky: true
 ---
-# JavaScript 实现复制
+# JavaScript实现复制
 在 JavaScript 中，有几种方式可以实现复制文本到剪贴板。以下是几种常用的方法：
 ## 方法 1：使用 navigator.clipboard.writeText（推荐）
 

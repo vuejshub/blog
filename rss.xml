@@ -6,13 +6,46 @@
     <link>https://mister-hope.github.io/</link>
     <description>前端进阶</description>
     <language>zh-CN</language>
-    <pubDate>Mon, 04 Nov 2024 16:17:55 GMT</pubDate>
-    <lastBuildDate>Mon, 04 Nov 2024 16:17:55 GMT</lastBuildDate>
+    <pubDate>Sun, 10 Nov 2024 09:34:47 GMT</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2024 09:34:47 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>css</category>
     <category>JavaScript</category>
     <category>TypeScript</category>
     <category>Vue</category>
+    <item>
+      <title>Css修改滚动条样式</title>
+      <link>https://mister-hope.github.io/css/scrollbar.html</link>
+      <guid>https://mister-hope.github.io/css/scrollbar.html</guid>
+      <source url="https://mister-hope.github.io/rss.xml">Css修改滚动条样式</source>
+      <description>Css修改滚动条样式 实现 示例 滚动条滚动条</description>
+      <category>css</category>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>实现</h2>
+<div class="language-css line-numbers-mode" data-highlighter="shiki" data-ext="css" data-title="css" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">/* 滚动槽 */</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#56B6C2">::-webkit-scrollbar</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    width: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    height: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#56B6C2">::-webkit-scrollbar-track</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    border-radius: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    background: </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">rgba</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.06</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">    -webkit-box-shadow</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">inset</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 5</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> rgba</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.08</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">/* 滚动条滑块 */</span></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#56B6C2">::-webkit-scrollbar-thumb</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    border-radius: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">3</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    background: </span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">rgba</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.12</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2">    -webkit-box-shadow</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">: </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">inset</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 0</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> 10</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#0184BC;--shiki-dark:#56B6C2"> rgba</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">0.2</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>示例</h2>
+<figure><figcaption>滚动条</figcaption></figure>
+]]></content:encoded>
+    </item>
     <item>
       <title>JavaScript实现复制</title>
       <link>https://mister-hope.github.io/javaScript/copy.html</link>
@@ -63,12 +96,20 @@
       <enclosure url="https://mister-hope.github.io/assets/images/cover3.jpg" type="image/jpeg"/>
     </item>
     <item>
+      <title>Css</title>
+      <link>https://mister-hope.github.io/css/</link>
+      <guid>https://mister-hope.github.io/css/</guid>
+      <source url="https://mister-hope.github.io/rss.xml">Css</source>
+      <category>css</category>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
+    </item>
+    <item>
       <title>JavaScript基础</title>
       <link>https://mister-hope.github.io/javaScript/</link>
       <guid>https://mister-hope.github.io/javaScript/</guid>
       <source url="https://mister-hope.github.io/rss.xml">JavaScript基础</source>
       <category>JavaScript</category>
-      <pubDate>Mon, 04 Nov 2024 08:14:32 GMT</pubDate>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>JavaScript实现EventStream</title>
@@ -118,7 +159,7 @@
       <guid>https://mister-hope.github.io/typeScript/</guid>
       <source url="https://mister-hope.github.io/rss.xml">TypeScript</source>
       <category>TypeScript</category>
-      <pubDate>Mon, 04 Nov 2024 08:14:32 GMT</pubDate>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>TypeScript 中interface和type的区别</title>
@@ -185,7 +226,7 @@
       <guid>https://mister-hope.github.io/vue/</guid>
       <source url="https://mister-hope.github.io/rss.xml">Vue</source>
       <category>Vue</category>
-      <pubDate>Mon, 04 Nov 2024 08:14:32 GMT</pubDate>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
     </item>
   </channel>
 </rss>

@@ -6,8 +6,8 @@
     <link>https://vuejshub.github.io/blog/blog/</link>
     <description>前端进阶</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 10 Nov 2024 15:20:12 GMT</pubDate>
-    <lastBuildDate>Sun, 10 Nov 2024 15:20:12 GMT</lastBuildDate>
+    <pubDate>Sun, 10 Nov 2024 15:23:11 GMT</pubDate>
+    <lastBuildDate>Sun, 10 Nov 2024 15:23:11 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>css</category>
@@ -88,11 +88,10 @@
       <link>https://vuejshub.github.io/blog/blog/intro.html</link>
       <guid>https://vuejshub.github.io/blog/blog/intro.html</guid>
       <source url="https://vuejshub.github.io/blog/blog/rss.xml">介绍页</source>
-      <description>介绍页 一个前端开发者 This message is used to verify that this feed (feedId:78455280696606720) belongs to me (userId:57331762910559232). Join me in enjoying the next generation informatio...</description>
+      <description>介绍页 一个前端开发者</description>
       <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
-<p>一个前端开发者
-This message is used to verify that this feed (feedId:78455280696606720) belongs to me (userId:57331762910559232). Join me in enjoying the next generation information browser https://follow.is.</p>
+<p>一个前端开发者</p>
 ]]></content:encoded>
       <enclosure url="https://vuejshub.github.io/blog/blog/assets/images/cover3.jpg" type="image/jpeg"/>
     </item>

@@ -21,5 +21,11 @@ export default sidebar({
       prefix: "typeScript/",
       children: "structure",
     },
+    {
+      text: "Css",
+      icon: "book",
+      prefix: "css/",
+      children: "structure",
+    },
   ],
 });

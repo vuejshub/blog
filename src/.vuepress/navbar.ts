@@ -5,6 +5,7 @@ export default navbar([
   "/javaScript/",
   "/typeScript/",
   "/vue/",
+  "/css/",
   // {
   //   text: "博文",
   //   icon: "pen-to-square",

@@ -4,18 +4,18 @@ import navbar from "./navbar.js";
 import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://mister-hope.github.io",
+  hostname: "https://vuejshub.github.io/blog/",
 
   author: {
     name: "Tim",
-    url: "https://mister-hope.com",
+    url: "https://vuejshub.github.io/blog/",
   },
 
   iconAssets: "fontawesome-with-brands",
 
   logo: "https://theme-hope-assets.vuejs.press/logo.svg",
 
-  repo: "Benborba-github",
+  repo: "vuejshub",
 
   docsDir: "src",
 

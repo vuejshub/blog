@@ -6,14 +6,42 @@
     <link>https://vuejshub.github.io/blog/blog/</link>
     <description>前端进阶</description>
     <language>zh-CN</language>
-    <pubDate>Sun, 10 Nov 2024 15:23:11 GMT</pubDate>
-    <lastBuildDate>Sun, 10 Nov 2024 15:23:11 GMT</lastBuildDate>
+    <pubDate>Tue, 19 Nov 2024 13:13:04 GMT</pubDate>
+    <lastBuildDate>Tue, 19 Nov 2024 13:13:04 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>nodejs</category>
     <category>css</category>
     <category>JavaScript</category>
     <category>TypeScript</category>
     <category>Vue</category>
+    <item>
+      <title>express解决跨域问题</title>
+      <link>https://vuejshub.github.io/blog/blog/nodejs/express-cors.html</link>
+      <guid>https://vuejshub.github.io/blog/blog/nodejs/express-cors.html</guid>
+      <source url="https://vuejshub.github.io/blog/blog/rss.xml">express解决跨域问题</source>
+      <description>express解决跨域问题 1.使用cors 2.手动实现</description>
+      <category>nodejs</category>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h2>1.使用cors</h2>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">npm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> cors</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --save-dev</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> </span></span>
+<span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">#Or</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">pnpm</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> install</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> cors</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> --save-dev</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">const</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> cors</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> =</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> require</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'cors'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">app.use(cors(</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">));</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>2.手动实现</h2>
+<div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">app.use((req,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> res,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> next</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">) =&gt; {</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">res.header(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'Access-Control-Allow-Origin'</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> '*'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">res.header(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'Access-Control-Allow-Headers'</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'Authorization,X-API-KEY, Origin, X-Requested-With, Content-Type, Accept, Access-Control-Request-Method'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> )</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">res.header(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'Access-Control-Allow-Methods'</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'GET, POST, OPTIONS, PATCH, PUT, DELETE'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">res.header(</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">'Allow'</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">,</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> 'GET, POST, PATCH, OPTIONS, PUT, DELETE'</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">)</span></span>
+<span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">next</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">();</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">});</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
     <item>
       <title>Css修改滚动条样式</title>
       <link>https://vuejshub.github.io/blog/blog/css/scrollbar.html</link>
@@ -152,6 +180,14 @@
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    }, </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">false</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span>
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}).</span><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">listen</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">(</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">4001</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">);</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div>]]></content:encoded>
+    </item>
+    <item>
+      <title>nodejs</title>
+      <link>https://vuejshub.github.io/blog/blog/nodejs/</link>
+      <guid>https://vuejshub.github.io/blog/blog/nodejs/</guid>
+      <source url="https://vuejshub.github.io/blog/blog/rss.xml">nodejs</source>
+      <category>nodejs</category>
+      <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>TypeScript</title>

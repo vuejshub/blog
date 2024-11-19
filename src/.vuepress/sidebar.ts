@@ -27,5 +27,11 @@ export default sidebar({
       prefix: "css/",
       children: "structure",
     },
+    {
+      text: "nodejs",
+      icon: "book",
+      prefix: "nodejs/",
+      children: "structure",
+    },
   ],
 });

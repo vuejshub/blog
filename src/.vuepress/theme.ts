@@ -28,6 +28,7 @@ export default hopeTheme({
   // 页脚
   footer: "默认页脚",
   displayFooter: true,
+  lastUpdated: false,//最后更新时间
 
   // 博客相关
   blog: {
@@ -58,8 +59,8 @@ export default hopeTheme({
     blog: true,
     searchPro: true,
     feed: {
-      // atom: true,
-      // json: true,
+      atom: true,
+      json: true,
       rss: true,
     },
     // 启用之前需安装 @waline/client

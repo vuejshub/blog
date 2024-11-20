@@ -34,7 +34,7 @@ export default sidebar({
       children: "structure",
     },
     {
-      text: "other",
+      text: "其他",
       icon: "book",
       prefix: "other/",
       children: "structure",

@@ -1,5 +1,5 @@
 ---
-title: 其他
+title: other
 index: false
 icon: laptop-code
 date: 2021-02-09

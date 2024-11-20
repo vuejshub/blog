@@ -1,10 +1,12 @@
 ---
-title: follow
-index: false
-icon: laptop-code
-date: 2021-02-09
+icon: pen-to-square
+date: 2022-02-10
 category:
-  - 其他
+  - other
+tag:
+  - 分享
+star: true
+sticky: true
 ---
 
 # follow 最棒的RSS阅读器 没有之一

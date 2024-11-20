@@ -6,15 +6,30 @@
     <link>https://vuejshub.github.io/blog/blog/</link>
     <description>前端进阶</description>
     <language>zh-CN</language>
-    <pubDate>Tue, 19 Nov 2024 13:13:04 GMT</pubDate>
-    <lastBuildDate>Tue, 19 Nov 2024 13:13:04 GMT</lastBuildDate>
+    <pubDate>Wed, 20 Nov 2024 02:27:54 GMT</pubDate>
+    <lastBuildDate>Wed, 20 Nov 2024 02:27:54 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+    <category>其他</category>
     <category>nodejs</category>
     <category>css</category>
     <category>JavaScript</category>
     <category>TypeScript</category>
     <category>Vue</category>
+    <item>
+      <title>follow</title>
+      <link>https://vuejshub.github.io/blog/blog/other/follow.html</link>
+      <guid>https://vuejshub.github.io/blog/blog/other/follow.html</guid>
+      <source url="https://vuejshub.github.io/blog/blog/rss.xml">follow</source>
+      <description>follow 最棒的RSS阅读器 没有之一 官网 https://follow.is/ follow-summary.pngfollow-summary.png</description>
+      <category>其他</category>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
+      <content:encoded><![CDATA[
+<h1>官网</h1>
+<p>https://follow.is/</p>
+<figure><figcaption>follow-summary.png</figcaption></figure>
+]]></content:encoded>
+    </item>
     <item>
       <title>express解决跨域问题</title>
       <link>https://vuejshub.github.io/blog/blog/nodejs/express-cors.html</link>
@@ -188,6 +203,14 @@
       <source url="https://vuejshub.github.io/blog/blog/rss.xml">nodejs</source>
       <category>nodejs</category>
       <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
+    </item>
+    <item>
+      <title>其他</title>
+      <link>https://vuejshub.github.io/blog/blog/other/</link>
+      <guid>https://vuejshub.github.io/blog/blog/other/</guid>
+      <source url="https://vuejshub.github.io/blog/blog/rss.xml">其他</source>
+      <category>其他</category>
+      <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
     </item>
     <item>
       <title>TypeScript</title>

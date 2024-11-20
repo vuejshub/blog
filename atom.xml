@@ -3,15 +3,34 @@
   <id>https://vuejshub.github.io/blog/blog/</id>
   <title>前端进阶</title>
   <subtitle>前端进阶</subtitle>
-  <updated>2024-11-19T13:13:04.917Z</updated>
+  <updated>2024-11-20T02:27:54.408Z</updated>
   <generator>@vuepress/plugin-feed</generator>
   <link rel="self" href="https://vuejshub.github.io/blog/blog/atom.xml"/>
   <link rel="alternate" href="https://vuejshub.github.io/blog/blog/"/>
+  <category term="其他"/>
   <category term="nodejs"/>
   <category term="css"/>
   <category term="JavaScript"/>
   <category term="TypeScript"/>
   <category term="Vue"/>
+  <entry>
+    <title type="text">follow</title>
+    <id>https://vuejshub.github.io/blog/blog/other/follow.html</id>
+    <link href="https://vuejshub.github.io/blog/blog/other/follow.html"/>
+    <updated>2024-11-20T02:26:23.000Z</updated>
+    <summary type="html"><![CDATA[
+<h1>官网</h1>
+<p>https://follow.is/</p>
+<figure><figcaption>follow-summary.png</figcaption></figure>
+]]></summary>
+    <content type="html"><![CDATA[
+<h1>官网</h1>
+<p>https://follow.is/</p>
+<figure><figcaption>follow-summary.png</figcaption></figure>
+]]></content>
+    <category term="其他"/>
+    <published>2021-02-09T00:00:00.000Z</published>
+  </entry>
   <entry>
     <title type="text">express解决跨域问题</title>
     <id>https://vuejshub.github.io/blog/blog/nodejs/express-cors.html</id>
@@ -238,6 +257,14 @@
     <updated>2024-11-19T13:08:48.000Z</updated>
     <category term="nodejs"/>
     <published>2021-02-10T00:00:00.000Z</published>
+  </entry>
+  <entry>
+    <title type="text">其他</title>
+    <id>https://vuejshub.github.io/blog/blog/other/</id>
+    <link href="https://vuejshub.github.io/blog/blog/other/"/>
+    <updated>2024-11-20T02:26:23.000Z</updated>
+    <category term="其他"/>
+    <published>2021-02-09T00:00:00.000Z</published>
   </entry>
   <entry>
     <title type="text">TypeScript</title>

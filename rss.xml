@@ -6,24 +6,25 @@
     <link>https://vuejshub.github.io/blog/blog/</link>
     <description>前端进阶</description>
     <language>zh-CN</language>
-    <pubDate>Wed, 20 Nov 2024 02:27:54 GMT</pubDate>
-    <lastBuildDate>Wed, 20 Nov 2024 02:27:54 GMT</lastBuildDate>
+    <pubDate>Wed, 20 Nov 2024 02:37:26 GMT</pubDate>
+    <lastBuildDate>Wed, 20 Nov 2024 02:37:26 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
-    <category>其他</category>
+    <category>other</category>
     <category>nodejs</category>
     <category>css</category>
     <category>JavaScript</category>
+    <category>其他</category>
     <category>TypeScript</category>
     <category>Vue</category>
     <item>
-      <title>follow</title>
+      <title>follow 最棒的RSS阅读器 没有之一</title>
       <link>https://vuejshub.github.io/blog/blog/other/follow.html</link>
       <guid>https://vuejshub.github.io/blog/blog/other/follow.html</guid>
-      <source url="https://vuejshub.github.io/blog/blog/rss.xml">follow</source>
+      <source url="https://vuejshub.github.io/blog/blog/rss.xml">follow 最棒的RSS阅读器 没有之一</source>
       <description>follow 最棒的RSS阅读器 没有之一 官网 https://follow.is/ follow-summary.pngfollow-summary.png</description>
-      <category>其他</category>
-      <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
+      <category>other</category>
+      <pubDate>Thu, 10 Feb 2022 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
 <h1>官网</h1>
 <p>https://follow.is/</p>
@@ -205,10 +206,10 @@
       <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
     </item>
     <item>
-      <title>其他</title>
+      <title>other</title>
       <link>https://vuejshub.github.io/blog/blog/other/</link>
       <guid>https://vuejshub.github.io/blog/blog/other/</guid>
-      <source url="https://vuejshub.github.io/blog/blog/rss.xml">其他</source>
+      <source url="https://vuejshub.github.io/blog/blog/rss.xml">other</source>
       <category>其他</category>
       <pubDate>Tue, 09 Feb 2021 00:00:00 GMT</pubDate>
     </item>

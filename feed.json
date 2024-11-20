@@ -6,16 +6,16 @@
   "description": "前端进阶",
   "items": [
     {
-      "title": "follow",
+      "title": "follow 最棒的RSS阅读器 没有之一",
       "url": "https://vuejshub.github.io/blog/blog/other/follow.html",
       "id": "https://vuejshub.github.io/blog/blog/other/follow.html",
       "summary": "follow 最棒的RSS阅读器 没有之一 官网 https://follow.is/ follow-summary.pngfollow-summary.png",
       "content_html": "\n<h1>官网</h1>\n<p>https://follow.is/</p>\n<figure><figcaption>follow-summary.png</figcaption></figure>\n",
-      "date_published": "2021-02-09T00:00:00.000Z",
-      "date_modified": "2024-11-20T02:26:23.000Z",
+      "date_published": "2022-02-10T00:00:00.000Z",
+      "date_modified": "2024-11-20T02:36:49.000Z",
       "authors": [],
       "tags": [
-        "其他"
+        "other"
       ]
     },
     {
@@ -119,12 +119,12 @@
       ]
     },
     {
-      "title": "其他",
+      "title": "other",
       "url": "https://vuejshub.github.io/blog/blog/other/",
       "id": "https://vuejshub.github.io/blog/blog/other/",
       "content_html": "",
       "date_published": "2021-02-09T00:00:00.000Z",
-      "date_modified": "2024-11-20T02:26:23.000Z",
+      "date_modified": "2024-11-20T02:36:49.000Z",
       "authors": [],
       "tags": [
         "其他"

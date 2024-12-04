@@ -64,7 +64,7 @@ export default hopeTheme({
       rss: true,
       channel: {
         // canonical_base:"",
-        link: 'https://vuejshub.github.io/blog/'
+        link: 'https://vuejshub.github.io/'
       }
     },
     // 启用之前需安装 @waline/client

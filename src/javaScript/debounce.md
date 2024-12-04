@@ -1,4 +1,4 @@
-~~---
+---
 icon: pen-to-square
 date: 2021-03-23
 category:

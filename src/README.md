@@ -4,6 +4,7 @@ layout: BlogHome
 icon: home
 title: 首页
 heroImage: https://theme-hope-assets.vuejs.press/logo.svg
+bgImage: '/assets/images/pexels-pok-rie-33563-2049422.jpg'
 heroText: 前端进阶
 heroFullScreen: true
 tagline: 前端进阶之路

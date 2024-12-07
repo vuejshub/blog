@@ -14,28 +14,28 @@ sticky: true
 
 ## 刷机
 
-https://hicairo.com/post/76.html 玩客云盒子（OneCloud）刷 Armbian 系统
+[https://hicairo.com/post/76.html ]()玩客云盒子（OneCloud）刷 Armbian 系统
 
-https://mao.fan/article/36 玩客云刷机armbian变身openwrt旁路由教程
+[https://mao.fan/article/36]() 玩客云刷机armbian变身openwrt旁路由教程
 
-https://rupu.net/archives/armbian-init Armbian环境一键初始化脚本
+[https://rupu.net/archives/armbian-init]() Armbian环境一键初始化脚本
 
-https://isedu.top/index.php/archives/141/ 玩客云刷机-玩机教程
+[https://isedu.top/index.php/archives/141/ ]()玩客云刷机-玩机教程
 
-https://mymuwu.net/?p=985 拯救玩客云，刷入armbian实现远程下载、nas、docker等功能
+[https://mymuwu.net/?p=985 ]()拯救玩客云，刷入armbian实现远程下载、nas、docker等功能
 
-https://github.com/hzyitc/armbian-onecloud/releases 固件 
+[https://github.com/hzyitc/armbian-onecloud/releases]() 固件 
 
 ## App
 
-https://casaos.io/ 开源Nas系统
+[https://casaos.io/]() 开源Nas系统
 
-https://longdada.me/onecloud-shuaji-armbian-install-1panel-alist/ 玩客云刷机 Armbian，安装 1panel、Alist
+[https://longdada.me/onecloud-shuaji-armbian-install-1panel-alist/]() 玩客云刷机 Armbian，安装 1panel、Alist
 
-https://alexpeng.cn/post/165.html armbian系统查看CPU温度
+[https://alexpeng.cn/post/165.html ]()armbian系统查看CPU温度
 
-https://juejin.cn/post/7293392480452247562 **frp: 内网穿透利器 🐂🐂🐂**
-https://github.com/SuperNG6/Docker-qBittorrent-Enhanced-Edition 增强版 屏蔽迅雷
+[https://juejin.cn/post/7293392480452247562]() **frp: 内网穿透利器 🐂🐂🐂**
+[https://github.com/SuperNG6/Docker-qBittorrent-Enhanced-Edition ]()增强版 屏蔽迅雷
 
 ### 安装Docker
 

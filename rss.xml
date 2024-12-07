@@ -6,8 +6,8 @@
     <link>https://vuejshub.github.io/blog/blog/</link>
     <description>前端进阶</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 07 Dec 2024 03:31:56 GMT</pubDate>
-    <lastBuildDate>Sat, 07 Dec 2024 03:31:56 GMT</lastBuildDate>
+    <pubDate>Sat, 07 Dec 2024 03:47:04 GMT</pubDate>
+    <lastBuildDate>Sat, 07 Dec 2024 03:47:04 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>工具</category>
@@ -28,18 +28,18 @@
       <pubDate>Sat, 07 Dec 2024 03:29:08 GMT</pubDate>
       <content:encoded><![CDATA[
 <h2>刷机</h2>
-<p>https://hicairo.com/post/76.html 玩客云盒子（OneCloud）刷 Armbian 系统</p>
-<p>https://mao.fan/article/36 玩客云刷机armbian变身openwrt旁路由教程</p>
-<p>https://rupu.net/archives/armbian-init Armbian环境一键初始化脚本</p>
-<p>https://isedu.top/index.php/archives/141/ 玩客云刷机-玩机教程</p>
-<p>https://mymuwu.net/?p=985 拯救玩客云，刷入armbian实现远程下载、nas、docker等功能</p>
-<p>https://github.com/hzyitc/armbian-onecloud/releases 固件</p>
+<p><a href="">https://hicairo.com/post/76.html </a>玩客云盒子（OneCloud）刷 Armbian 系统</p>
+<p><a href="">https://mao.fan/article/36</a> 玩客云刷机armbian变身openwrt旁路由教程</p>
+<p><a href="">https://rupu.net/archives/armbian-init</a> Armbian环境一键初始化脚本</p>
+<p><a href="">https://isedu.top/index.php/archives/141/ </a>玩客云刷机-玩机教程</p>
+<p><a href="">https://mymuwu.net/?p=985 </a>拯救玩客云，刷入armbian实现远程下载、nas、docker等功能</p>
+<p><a href="">https://github.com/hzyitc/armbian-onecloud/releases</a> 固件</p>
 <h2>App</h2>
-<p>https://casaos.io/ 开源Nas系统</p>
-<p>https://longdada.me/onecloud-shuaji-armbian-install-1panel-alist/ 玩客云刷机 Armbian，安装 1panel、Alist</p>
-<p>https://alexpeng.cn/post/165.html armbian系统查看CPU温度</p>
-<p>https://juejin.cn/post/7293392480452247562 <strong>frp: 内网穿透利器 🐂🐂🐂</strong>
-https://github.com/SuperNG6/Docker-qBittorrent-Enhanced-Edition 增强版 屏蔽迅雷</p>
+<p><a href="">https://casaos.io/</a> 开源Nas系统</p>
+<p><a href="">https://longdada.me/onecloud-shuaji-armbian-install-1panel-alist/</a> 玩客云刷机 Armbian，安装 1panel、Alist</p>
+<p><a href="">https://alexpeng.cn/post/165.html </a>armbian系统查看CPU温度</p>
+<p><a href="">https://juejin.cn/post/7293392480452247562</a> <strong>frp: 内网穿透利器 🐂🐂🐂</strong>
+<a href="">https://github.com/SuperNG6/Docker-qBittorrent-Enhanced-Edition </a>增强版 屏蔽迅雷</p>
 <h3>安装Docker</h3>
 <div class="language-bash line-numbers-mode" data-highlighter="shiki" data-ext="bash" data-title="bash" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic"># 方法1</span></span>
 <span class="line"><span style="--shiki-light:#4078F2;--shiki-dark:#61AFEF">sudo</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> apt</span><span style="--shiki-light:#50A14F;--shiki-dark:#98C379"> update</span></span>

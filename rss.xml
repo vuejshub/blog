@@ -6,8 +6,8 @@
     <link>https://vuejshub.github.io/blog/blog/</link>
     <description>前端进阶</description>
     <language>zh-CN</language>
-    <pubDate>Sat, 07 Dec 2024 03:47:04 GMT</pubDate>
-    <lastBuildDate>Sat, 07 Dec 2024 03:47:04 GMT</lastBuildDate>
+    <pubDate>Tue, 16 Sep 2025 08:56:27 GMT</pubDate>
+    <lastBuildDate>Tue, 16 Sep 2025 08:56:27 GMT</lastBuildDate>
     <generator>@vuepress/plugin-feed</generator>
     <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
     <category>工具</category>
@@ -248,11 +248,11 @@
       <link>https://vuejshub.github.io/blog/blog/css/scrollbar.html</link>
       <guid>https://vuejshub.github.io/blog/blog/css/scrollbar.html</guid>
       <source url="https://vuejshub.github.io/blog/blog/rss.xml">Css修改滚动条样式</source>
-      <description>Css修改滚动条样式 实现 示例 滚动条滚动条</description>
+      <description>Css修改滚动条样式 示例1 示例 滚动条滚动条 示例2 image</description>
       <category>css</category>
       <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
       <content:encoded><![CDATA[
-<h2>实现</h2>
+<h2>示例1</h2>
 <div class="language-css line-numbers-mode" data-highlighter="shiki" data-ext="css" data-title="css" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#A0A1A7;--shiki-light-font-style:italic;--shiki-dark:#7F848E;--shiki-dark-font-style:italic">/* 滚动槽 */</span></span>
 <span class="line"><span style="--shiki-light:#986801;--shiki-dark:#56B6C2">::-webkit-scrollbar</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">    width: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
@@ -273,6 +273,30 @@
 <span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
 <div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><h2>示例</h2>
 <figure><figcaption>滚动条</figcaption></figure>
+<h2>示例2</h2>
+<div class="language-css line-numbers-mode" data-highlighter="shiki" data-ext="css" data-title="css" style="--shiki-light:#383A42;--shiki-dark:#abb2bf;--shiki-light-bg:#FAFAFA;--shiki-dark-bg:#282c34"><pre class="shiki shiki-themes one-light one-dark-pro vp-code"><code><span class="line"><span style="--shiki-light:#986801;--shiki-dark:#56B6C2">::-webkit-scrollbar</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  width: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#56B6C2">::-webkit-scrollbar</span><span style="--shiki-light:#A626A4;--shiki-dark:#C678DD">:horizontal</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  height: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">6</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#56B6C2">::-webkit-scrollbar-track</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  border-radius: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">10</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#56B6C2">::-webkit-scrollbar-thumb</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  background-color: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">#</span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">0003</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  border-radius: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">10</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">px</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  transition: </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">all</span><span style="--shiki-light:#986801;--shiki-dark:#D19A66"> .2</span><span style="--shiki-light:#986801;--shiki-dark:#E06C75">s</span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66"> ease-in-out</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span>
+<span class="line"></span>
+<span class="line"><span style="--shiki-light:#986801;--shiki-dark:#56B6C2">::-webkit-scrollbar-thumb:hover</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF"> {</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  cursor: </span><span style="--shiki-light:#383A42;--shiki-dark:#D19A66">pointer</span><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">;</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">  background-color: </span><span style="--shiki-light:#986801;--shiki-dark:#D19A66">#</span><span style="--shiki-light:#0184BC;--shiki-dark:#D19A66">0000004d</span></span>
+<span class="line"><span style="--shiki-light:#383A42;--shiki-dark:#ABB2BF">}</span></span></code></pre>
+<div class="line-numbers" aria-hidden="true" style="counter-reset:line-number 0"><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div><div class="line-number"></div></div></div><img width="45" height="168" alt="image" src="https://github.com/user-attachments/assets/d5c910b5-9e35-4fe9-9cc7-f281ac4d8fa8">
 ]]></content:encoded>
     </item>
     <item>

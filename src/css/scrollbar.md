@@ -10,7 +10,7 @@ sticky: true
 ---
 # Css修改滚动条样式
 
-## 实现
+## 示例1
 ```css
 /* 滚动槽 */
 ::-webkit-scrollbar {
@@ -35,3 +35,29 @@ sticky: true
 ## 示例
 
 ![滚动条](img.png)
+## 示例2
+```css
+::-webkit-scrollbar {
+  width: 6px
+}
+
+::-webkit-scrollbar:horizontal {
+  height: 6px
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 10px
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #0003;
+  border-radius: 10px;
+  transition: all .2s ease-in-out
+}
+
+::-webkit-scrollbar-thumb:hover {
+  cursor: pointer;
+  background-color: #0000004d
+}
+```
+<img width="45" height="168" alt="image" src="https://github.com/user-attachments/assets/d5c910b5-9e35-4fe9-9cc7-f281ac4d8fa8" />
